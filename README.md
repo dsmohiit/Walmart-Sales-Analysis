@@ -52,7 +52,7 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Table Creation**: Set up tables in PostgreSQL using Python `psysopg2` and `sqlalchemy` to automate table creation and data insertion.
    - **Verification**: Runing initial SQL queries to confirm that the data has been loaded accurately.
 
-### 9. Link to jupyter notebook: [Jupyter-Noteboo](https://github.com/dsmohiit/Walmart-Sales-Analysis/blob/main/project.ipynb)
+### 9. Link to jupyter notebook: [Jupyter-Notebook](https://github.com/dsmohiit/Walmart-Sales-Analysis/blob/main/project.ipynb)
 
 ### 10. SQL Analysis: Complex Queries and Business Problem Solving
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
