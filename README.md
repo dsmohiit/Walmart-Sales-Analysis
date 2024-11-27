@@ -5,7 +5,7 @@
 ![Project Pipeline](https://github.com/dsmohiit/Walmart-Sales-Analysis/blob/main/Blank%20diagram.png)
 
 
-This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data. We utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business questions. The project is ideal for data analysts looking to develop skills in data manipulation, SQL querying, and data pipeline creation.
+This project is an end-to-end data analysis solution designed to extract critical business insights from Walmart sales data by utilize Python for data processing and analysis, SQL for advanced querying, and structured problem-solving techniques to solve key business problems. The project is demonstrating the skills such as data cleaning, data manipulation, exploratory data analysis, data visualization, SQL quering etc.
 
 ---
 
@@ -16,21 +16,21 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Goal**: To create a structured workspace within VS Code and organize project folders for smooth development and data handling.
 
 ### 2. Set Up Kaggle API
-   - **API Setup**: Obtain your Kaggle API token from [Kaggle](https://www.kaggle.com/) by navigating to your profile settings and downloading the JSON file.
+   - **API Setup**: Obtaining the Kaggle API token from [Kaggle](https://www.kaggle.com/) and downloading the JSON file.
    - **Configure Kaggle**: 
-      - Place the downloaded `kaggle.json` file in your local `.kaggle` folder.
-      - Use the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into your project.
+      - Placing the downloaded `kaggle.json` file into local `.kaggle` folder.
+      - Using the command `kaggle datasets download -d <dataset-path>` to pull datasets directly into vs-code/virtual environment project.
 
 ### 3. Download Walmart Sales Data
-   - **Data Source**: Use the Kaggle API to download the Walmart sales datasets from Kaggle.
+   - **Data Source**: Using the Kaggle API to download the Walmart sales datasets from Kaggle.
    - **Dataset Link**: [Walmart Sales Dataset](https://www.kaggle.com/najir0123/walmart-10k-sales-datasets)
 
-### 4. Install Required Libraries and Load Data
-   - **Libraries**: Install necessary Python libraries using:
+### 4. Required Libraries and Load Data
+   - **Libraries**: Installing necessary Python libraries using:
      ```bash
      pip install pandas numpy sqlalchemy mysql-connector-python psycopg2
      ```
-   - **Loading Data**: Read the data into a Pandas DataFrame for initial analysis and transformations.
+   - **Loading Data**: Reading the data into a Pandas DataFrame for initial analysis and transformations.
 
 ### 5. Explore the Data
    - **Goal**: Conducting an initial data exploration to understand data distribution, check column names, types, and identify potential issues.
@@ -52,7 +52,9 @@ This project is an end-to-end data analysis solution designed to extract critica
    - **Table Creation**: Set up tables in PostgreSQL using Python `psysopg2` and `sqlalchemy` to automate table creation and data insertion.
    - **Verification**: Runing initial SQL queries to confirm that the data has been loaded accurately.
 
-### 9. SQL Analysis: Complex Queries and Business Problem Solving
+### 9. Link to jupyter notebook: [Jupyter-Noteboo](https://github.com/dsmohiit/Walmart-Sales-Analysis/blob/main/project.ipynb)
+
+### 10. SQL Analysis: Complex Queries and Business Problem Solving
    - **Business Problem-Solving**: Write and execute complex SQL queries to answer critical business questions, such as:
      - Revenue trends across branches and categories.
      - Identifying best-selling product categories.
@@ -167,17 +169,12 @@ LIMIT 5;
 ```plaintext
 |-- data/                     # Raw data and transformed data
 |-- sql_queries/              # SQL scripts for analysis and queries
-|-- project.ipynb/                # Jupyter notebooks for Python analysis
+|-- project.ipynb/            # Jupyter notebooks for Python analysis
 |-- README.md                 # Project documentation
 |-- requirements.txt          # List of required Python libraries
 |-- main.py                   # Main script for loading, cleaning, and processing data
 ```
 
----
-
-## License
-
-This project is licensed under the MIT License. 
 
 ---
 
